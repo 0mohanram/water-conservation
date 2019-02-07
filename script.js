@@ -62,3 +62,15 @@ function NE() {
   var popup = document.getElementById("NE");
   popup.classList.toggle("show");
 }
+function KS() {
+  var popup = document.getElementById("KS");
+  popup.classList.toggle("show");
+}
+function OK() {
+  var popup = document.getElementById("OK");
+  popup.classList.toggle("show");
+}
+function TX() {
+  var popup = document.getElementById("TX");
+  popup.classList.toggle("show");
+}
