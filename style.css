@@ -1,0 +1,159 @@
+body{
+  background-image: url("https://cdn.glitch.com/d0e2bd08-43b0-49d3-bf1f-dbad9e66a1a0%2Fimageedit_1_5873129498.png?1549498034621");
+  background-repeat:no-repeat; 
+  background-size: 32vw;
+  background-position: 32.4vw 22.5vh;
+  background-attachment: fixed;
+}
+#menu-bar{
+  background-color: #0E305E;
+  font-size: 1.75vw;
+  padding: 0.3vw 0.3vw;
+  font-family: "futura", sans-serif;
+  position: fixed;
+  margin-top: -20.75vh;
+  margin-left: -0.5vw;
+  z-index: 5;
+}
+.menu-bar-links{
+  color: white;
+  text-decoration: none;
+}
+#blank-space{
+  font-size: 20.75vh;
+}
+h1, p{
+  font-family: "futura", sans-serif;
+  color: #3D3C3C;
+  text-align: center;
+  margin-left: 2.4vw;
+  margin-right: 2.4vw;
+}
+#USA-map {
+  position: relative;
+  top: 120%;
+  left: 15%;
+}
+#content {
+ background: rgb(247, 247, 247, 0.7);
+}
+#map-caption {
+ margin: 0px; 
+}
+#map-label {
+ margin: 4px; 
+}
+#USA-map-div {
+  position: relative;
+}
+.popup {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-size: 1.25vw;
+}
+    #Washington {
+      position: absolute;
+      top: 12%;
+      left: 24%;
+    }
+    #Oregon {
+      position: absolute;
+      top: 22%;
+      left: 24%;
+    }
+    #California {
+       top: 46%;
+      left: 24%;
+    }
+    #Alaska {
+      top: 72%;
+      left: 25%;
+    }
+    #Idaho {
+      top: 25%;
+      left: 31%;
+    }
+    #Nevada {
+      top: 37%;
+      left: 26.5%;
+    }
+    #Utah {
+      top: 40%;
+      left: 33.5%;
+    }
+    #Arizona {
+      top: 54%;
+      left: 31%;
+    }
+    #Montana {
+      top: 16%;
+      left: 37%;
+    }
+    #Wyoming {
+      top: 29%;
+      left: 37.5%;
+    }
+    #Colorado {
+      top: 42%;
+      left: 39%;
+    }
+    #New-Mexico {
+      top: 55%;
+      left: 37%;
+    }
+    #Hawaii {
+      top: 80%;
+      left: 35%
+    }
+    #North-Dakota{
+      top: 17%;
+      left: 45.25%;
+    }
+    #South-Dakota{
+      top: 26%;
+      left: 45.25%;
+    }
+    #Nebraska{
+      top: 35%;
+      left: 46.5%;
+    }
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
