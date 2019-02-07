@@ -1,0 +1,127 @@
+<!--
+ ██████  ██████ ██████████████ ██████         ██████         ██████████████
+ ██░░██  ██░░██ ██░░░░░░░░░░██ ██░░██         ██░░██         ██░░░░░░░░░░██
+ ██░░██  ██░░██ ██░░██████████ ██░░██         ██░░██         ██░░██████░░██
+ ██░░██  ██░░██ ██░░██         ██░░██         ██░░██         ██░░██  ██░░██
+ ██░░██████░░██ ██░░██████████ ██░░██         ██░░██         ██░░██  ██░░██
+ ██░░░░░░░░░░██ ██░░░░░░░░░░██ ██░░██         ██░░██         ██░░██  ██░░██                  ┏┓
+ ██░░██████░░██ ██░░██████████ ██░░██         ██░░██         ██░░██  ██░░██                  ┃┃
+ ██░░██  ██░░██ ██░░██         ██░░██         ██░░██         ██░░██  ██░░██  ╔══╗       ╔╦═╗ ┃┃
+ ██░░██  ██░░██ ██░░██████████ ██░░██████████ ██░░██████████ ██░░██████░░██  ║═╦╬╦╦═╦═╦╦╝║═╣ ┗┛
+ ██░░██  ██░░██ ██░░░░░░░░░░██ ██░░░░░░░░░░██ ██░░░░░░░░░░██ ██░░░░░░░░░░██  ║╔╣╔╣║╩╣║║║╬╠═║ ┏┓
+ ██████  ██████ ██████████████ ██████████████ ██████████████ ██████████████  ╚╝╚╝╚╩═╩╩═╩═╩═╝ ┗┛
+
+
+ █   █ █▀▀ █   █▀▀ █▀▀█ █▀▄▀█ █▀▀ 　 ▀▀█▀▀ █▀▀█ 　 █▀▀█ █  █ █▀▀█   █   █ █▀▀ █▀▀▄ █▀▀  ▀  ▀▀█▀▀ █▀▀ █ 
+ █ █ █ █▀▀ █   █   █  █ █ ▀ █ █▀▀ 　   █   █  █ 　 █  █ █  █ █▄▄▀   █▄█▄█ █▀▀ █▀▀▄ ▀▀█ ▀█▀   █   █▀▀ ▀ 
+ █▄▀▄█ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀▀ ▀   ▀ ▀▀▀ 　   ▀   ▀▀▀▀ 　 ▀▀▀▀  ▀▀▀ ▀ ▀▀    ▀ ▀  ▀▀▀ ▀▀▀  ▀▀▀ ▀▀▀   ▀   ▀▀▀ ▄ 
+-->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <title>Water Conservation</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="https://cdn.glitch.com/d0e2bd08-43b0-49d3-bf1f-dbad9e66a1a0%2Fimageedit_1_5873129498.png?1549498034621" type="image/gif" sizes="16x16"> <!--Logo Created By Elliot Fair-->
+    <script src="/script.js" defer></script>
+    </head>  
+  <body>
+    <table style="width:100%" id="menu-bar">
+      <thead>
+        <tr>
+        <th><a href="index.html" class="menu-bar-links">Home</a></th>
+        <th><a href="" class="menu-bar-links">Link 1</a></th> 
+        <th><a href="" class="menu-bar-links">Link 2</a></th>
+        <th><a href="" class="menu-bar-links">Link 3</a></th>
+        <th><a href="" class="menu-bar-links">Link 4</a></th>
+        <th><a href="" class="menu-bar-links">Link 5</a></th>
+        <th><a href="" class="menu-bar-links">Link 6</a></th>
+      </tr>
+      </thead>
+    </table>
+    <pre id="blank-space">
+    
+    </pre>
+    <div id="content">
+      <br>
+      <h1>
+        Our Mission:
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet,
+        qui elit posidonium eu. 
+        Malorum aliquid cum ei, 
+        diam idque placerat cum te. 
+        Unum nibh argumentum eam eu,
+        qui suavitate vituperatoribus ea,
+        vix no mutat accusamus. 
+        Has alii praesent dissentiunt an,
+        eu sit facete scripta mnesarchum,
+        ex dicam forensibus vix.
+      </p>
+      <br><br><br>
+      <h1 id="map-label">
+        Map
+      </h1>
+      <p id="map-caption">
+        <i>Click on your state of residence to learn how much water is consumed per day.</i>
+      </p>
+      <div id="USA-map-div">
+        <img src="https://cdn.glitch.com/d0e2bd08-43b0-49d3-bf1f-dbad9e66a1a0%2Fdownload%20(1).png?1548710095086" alt="map" width="80%" id="USA-map">
+        <div class="popup" id="Washington" onclick="WA()">Washington
+          <span class="popuptext" id="WA"><!--Washington-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="Oregon" onclick="OR()">Oregon
+          <span class="popuptext" id="OR"><!--Oregon-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="California" onclick="CA()">Cali-<br>fornia
+          <span class="popuptext" id="CA"><!--California-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="Alaska" onclick="AK()">Alaska
+          <span class="popuptext" id="AK"><!--Alaska-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="Idaho" onclick="ID()">Idaho
+          <span class="popuptext" id="ID"><!--Idaho-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="Nevada" onclick="NV()">Nevada
+          <span class="popuptext" id="NV"><!--Nevada-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="Utah" onclick="UT()">Utah
+          <span class="popuptext" id="UT"><!--Utah-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="Arizona" onclick="AZ()">Arizona
+          <span class="popuptext" id="AZ"><!--Arizona-->____ Million Gallons/Day</span>
+        </div> 
+        <div class="popup" id="Montana" onclick="MT()">Montana
+          <span class="popuptext" id="MT"><!--Montana-->____ Million Gallons/Day</span>
+        </div> 
+        <div class="popup" id="Wyoming" onclick="WY()">Wyoming
+          <span class="popuptext" id="WY"><!--Wyoming-->____ Million Gallons/Day</span>
+        </div> 
+        <div class="popup" id="Colorado" onclick="CO()">Colorado
+          <span class="popuptext" id="CO"><!--Colorado-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="New-Mexico" onclick="NM()">New Mexico
+          <span class="popuptext" id="NM"><!--New Mexico-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="Hawaii" onclick="HI()">Hawaii
+          <span class="popuptext" id="HI"><!--Hawaii-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="North-Dakota" onclick="ND()">North Dakota
+          <span class="popuptext" id="ND"><!--North Dakota-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="South-Dakota" onclick="SD()">South Dakota
+          <span class="popuptext" id="SD"><!--South Dakota-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="Nebraska" onclick="NE()">Nebraska
+          <span class="popuptext" id="NE"><!--Nebraska-->____ Million Gallons/Day</span>
+        </div>
+        <div class="popup" id="Kansas" onclick="KS()">Kansas
+          <span class="popuptext" id="KS"><!--Kansas-->____ Million Gallons/Day</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
